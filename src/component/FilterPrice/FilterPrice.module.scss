@@ -1,0 +1,45 @@
+.containerFilter {
+  display: flex;
+}
+
+.buttonFilter {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #4A4A4A;
+  padding: 15px;
+  border: 1px solid #DFE5EC;
+  box-sizing: border-box;
+  background: #FFFFFF;
+}
+
+.buttonFilterEnd {
+ background-color: red;
+}
+
+.buttonFilter:first-child {
+  margin-right: -1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.buttonFilter:last-child {
+  margin-left: -1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.checked {
+  background-color: #2196F3;
+  color: white;
+}
+
+@media(max-width: 600px){
+  .containerFilter{
+    justify-content: center;
+  }
+  .buttonFilter {
+    font-size: 12px;
+  }
+}
